@@ -13,11 +13,11 @@ const Navigation = () => {
           <Link to='/user'>User</Link>
         </li>
         <li>
-          <Link to='/'>Home</Link>
+          <Link to='/regestration'>Regestration</Link>
         </li>
-        <li>
-          <Link to='/'>Home</Link>
-        </li>
+        {/* <li>
+          <Link to='/formik'>Formik</Link>
+        </li> */}
       </ul>
     </header>
   )

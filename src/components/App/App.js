@@ -11,6 +11,9 @@ import User from '../User/User'
 // navigation
 import Navigation from '../Navigation/Navigation'
 
+// FormRegistration
+import FormRegistration from '../FormRegistration/FormRegistration'
+
 const App = () => {
   const [isLoading, setIsLoading] = useState(true)
   const [name, setName] = useState(null)
@@ -51,6 +54,10 @@ const App = () => {
                 email={email}
               />
             )}
+          />
+          <Route
+            path='/regestration'
+            render={() => <FormRegistration />}
           />
           <Route render={() => <h2>Page not found! Pashol nahuy!</h2>} />
         </Switch>
